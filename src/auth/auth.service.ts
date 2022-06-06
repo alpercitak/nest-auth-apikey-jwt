@@ -1,13 +1,14 @@
 import { Injectable } from '@nestjs/common';
 import { UsersService } from '../data/users/users.service';
 import { JwtService } from '@nestjs/jwt';
+import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class AuthService {
-  constructor(private usersService: UsersService, private jwtService: JwtService) {}
+  constructor(private usersService: UsersService, private jwtService: JwtService, private configService: ConfigService) {}
 
   validateApiKey(apiKey: string) {
-    const apiKeys: string[] = ['api-key-1', 'api-key-2'];
+    const apiKeys: string[] = this.configService.get<string>('API_KEY')?.split(',') || [];
     return apiKeys.find((key) => apiKey == key);
   }
 
