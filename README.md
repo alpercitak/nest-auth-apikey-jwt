@@ -1,6 +1,6 @@
 ## Start the application
 
 ```bash
-$ yarn install
-$ yarn start:dev
+$ pnpm install
+$ pnpm start:dev
 ```
