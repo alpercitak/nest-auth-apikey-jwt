@@ -33,7 +33,7 @@
     "passport-headerapikey": "^1.2.2",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
-    "reflect-metadata": "^0.1.14",
+    "reflect-metadata": "^0.2.0",
     "rimraf": "^3.0.2",
     "rxjs": "^7.8.2"
   },
