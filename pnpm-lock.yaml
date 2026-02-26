@@ -25,13 +25,13 @@ importers:
         version: 2.1.0(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)
       '@nestjs/passport':
         specifier: ^8.2.2
-        version: 8.2.2(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.6.0)
+        version: 8.2.2(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)
       '@nestjs/platform-express':
         specifier: ^8.4.7
         version: 8.4.7(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@8.4.7)
       passport:
-        specifier: ^0.6.0
-        version: 0.6.0
+        specifier: ^0.7.0
+        version: 0.7.0
       passport-headerapikey:
         specifier: ^1.2.2
         version: 1.2.2
@@ -2427,8 +2427,8 @@ packages:
     resolution: {integrity: sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==}
     engines: {node: '>= 0.4.0'}
 
-  passport@0.6.0:
-    resolution: {integrity: sha512-0fe+p3ZnrWRW74fe8+SvCyf4a3Pb2/h7gFkQ8yTJpAO50gDzlfjZUZTO1k5Eg9kUct22OxHLqDZoKUWRHOh9ug==}
+  passport@0.7.0:
+    resolution: {integrity: sha512-cPLl+qZpSc+ireUvt+IzqbED1cHHkDoVYMo30jbJIdOOjQ1MQYZBPiNvmi8UM6lJuOpTPXJGZQk0DtC4y61MYQ==}
     engines: {node: '>= 0.4.0'}
 
   path-exists@4.0.0:
@@ -3785,10 +3785,10 @@ snapshots:
       '@nestjs/common': 8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2)
       reflect-metadata: 0.2.2
 
-  '@nestjs/passport@8.2.2(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.6.0)':
+  '@nestjs/passport@8.2.2(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)':
     dependencies:
       '@nestjs/common': 8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      passport: 0.6.0
+      passport: 0.7.0
 
   '@nestjs/platform-express@8.4.7(@nestjs/common@8.4.7(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@8.4.7)':
     dependencies:
@@ -6053,7 +6053,7 @@ snapshots:
 
   passport-strategy@1.0.0: {}
 
-  passport@0.6.0:
+  passport@0.7.0:
     dependencies:
       passport-strategy: 1.0.0
       pause: 0.0.1
