@@ -42,7 +42,7 @@
     "@eslint/js": "^10.0.0",
     "@nestjs/cli": "^11.0.0",
     "@nestjs/schematics": "^8.0.11",
-    "@nestjs/testing": "^8.4.7",
+    "@nestjs/testing": "^11.0.0",
     "@types/express": "^5.0.0",
     "@types/jest": "27.5.2",
     "@types/node": "^25.0.0",
