@@ -24,8 +24,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)
       '@nestjs/passport':
-        specifier: ^8.2.2
-        version: 8.2.2(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)
+        specifier: ^11.0.5
+        version: 11.0.5(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)
       '@nestjs/platform-express':
         specifier: ^11.0.0
         version: 11.1.15(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.15)
@@ -747,11 +747,11 @@ packages:
       class-validator:
         optional: true
 
-  '@nestjs/passport@8.2.2':
-    resolution: {integrity: sha512-Ytbn8j7WZ4INmEntOpdJY1isTgdQqZkx5ADz8zsZ5wAp0t8tc5GF/A+GlXlmn9/yRPwZHSbmHpv7Qt2EIiNnrw==}
+  '@nestjs/passport@11.0.5':
+    resolution: {integrity: sha512-ulQX6mbjlws92PIM15Naes4F4p2JoxGnIJuUsdXQPT+Oo2sqQmENEZXM7eYuimocfHnKlcfZOuyzbA33LwUlOQ==}
     peerDependencies:
-      '@nestjs/common': ^6.0.0 || ^7.0.0 || ^8.0.0
-      passport: ^0.4.0 || ^0.5.0 || ^0.6.0
+      '@nestjs/common': ^10.0.0 || ^11.0.0
+      passport: ^0.5.0 || ^0.6.0 || ^0.7.0
 
   '@nestjs/platform-express@11.1.15':
     resolution: {integrity: sha512-sR42dQ5fPy4NGbnhT4mRIJLL0h2eNY4KpLkcfd27vg5XdTjQQ07wkQORrw6rAkWkBvMRr0dmhAcUBnXpe7ro5Q==}
@@ -4035,7 +4035,7 @@ snapshots:
       '@nestjs/common': 11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2)
       reflect-metadata: 0.2.2
 
-  '@nestjs/passport@8.2.2(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)':
+  '@nestjs/passport@11.0.5(@nestjs/common@11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)':
     dependencies:
       '@nestjs/common': 11.1.15(reflect-metadata@0.2.2)(rxjs@7.8.2)
       passport: 0.7.0
