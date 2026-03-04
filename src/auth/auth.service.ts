@@ -5,7 +5,11 @@ import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class AuthService {
-  constructor(private usersService: UsersService, private jwtService: JwtService, private configService: ConfigService) {}
+  constructor(
+    private usersService: UsersService,
+    private jwtService: JwtService,
+    private configService: ConfigService,
+  ) {}
 
   validateApiKey(apiKey: string) {
     const apiKeys: string[] = this.configService.get<string>('API_KEY')?.split(',') || [];
