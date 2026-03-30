@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Request, UseGuards } from '@nestjs/common';
-import type { AppService } from './app.service';
-import type { AuthService } from './auth/auth.service';
+import { AppService } from './app.service';
+import { AuthService } from './auth/auth.service';
 import { ApiKeyAuthGuard } from './auth/guard/apikey-auth.guard';
 import { JwtAuthGuard } from './auth/guard/jwt-auth.guard';
 import { LocalAuthGuard } from './auth/guard/local-auth.guard';
